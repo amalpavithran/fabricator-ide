@@ -1,0 +1,33 @@
+{
+  "name": "fabricator-ide",
+  "version": "1.0.0",
+  "description": "Fabricator IDE helps you create apps using a new and simple Catridge (node) based GUI way!",
+  "main": "fabricator-ide.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AbstractTeamZ/fabricator-ide.git"
+  },
+  "keywords": [
+    "fabricator",
+    "ide",
+    "app",
+    "design",
+    "create",
+    "develop",
+    "node",
+    "catridge"
+  ],
+  "author": "Abstract TeamZ",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/AbstractTeamZ/fabricator-ide/issues"
+  },
+  "homepage": "https://github.com/AbstractTeamZ/fabricator-ide#readme",
+  "dependencies": {
+    "electron": "^5.0.6"
+  }
+}
