@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/mainwindow.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script type="text/javascript" src="scripts/mainwindow.js"></script>
     <title> Fabricator IDE</title>
 </head>
 
@@ -11,9 +12,13 @@
     <div class="topbar">
         <a href="#" class="title">Fabricator IDE</a>
         <div class="global-search">
-            <input type="text" placeholder="Search for projects, tools, settings and help" id="search-input" />
+            <input type="text" placeholder="Search for projects, tools, settings and help" id="search-input"
+                onfocus="this.placeholder=''"
+                onblur="this.placeholder='Search for projects, tools, settings and help'" />
             <i class="material-icons md-18" id="search-icon"> search </i>
         </div>
+    </div>
+    <div class="editor">
     </div>
 </body>
 

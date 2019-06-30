@@ -27,6 +27,7 @@ function mainWindow() {
             mainWindow()
         }
     })
+
 }
 
 app.on('ready', mainWindow)
