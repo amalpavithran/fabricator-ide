@@ -2,14 +2,18 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/mainwindow.css">
+    <link rel="stylesheet" href="layout/mainwindow.css">
+    <link rel="stylesheet" href="layout/top-bar.css">
+    <link rel="stylesheet" href="layout/left-panel.css">
+    <link rel="stylesheet" href="layout/editor.css">
+    <link rel="stylesheet" href="layout/status-bar.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <script type="text/javascript" src="scripts/mainwindow.js"></script>
     <title> Fabricator IDE</title>
 </head>
 
 <body>
-    <div class="topbar">
+    <div class="top-bar">
         <a href="#" class="title">Fabricator IDE</a>
         <div class="global-search">
             <input type="text" placeholder="Search for projects, tools, settings and help" id="search-input"
@@ -20,26 +24,26 @@
     </div>
     <div class="workspace">
         <div class="left-panel">
-            <div class="panel-key" id="catridge-icon">
-                <i class="material-icons md-36 panel-icon"> check_box_outline_blank </i>
+            <div class="panel-key">
+                <i class="material-icons md-36 panel-icon" id="catridge-icon"> check_box_outline_blank </i>
             </div>
-            <div class="panel-key" id="link-icon">
-                <i class="material-icons md-36 panel-icon"> remove </i>
+            <div class="panel-key">
+                <i class="material-icons md-36 panel-icon" id="link-icon"> remove </i>
             </div>
-            <div class="panel-key" id="open-icon">
-                <i class="material-icons md-36 panel-icon"> folder_open </i>
+            <div class="panel-key">
+                <i class="material-icons md-36 panel-icon" id="open-icon"> folder_open </i>
             </div>
-            <div class="panel-key" id="save-icon">
-                <i class="material-icons md-36 panel-icon"> save </i>
+            <div class="panel-key">
+                <i class="material-icons md-36 panel-icon" id="save-icon"> save </i>
             </div>
-            <div class="panel-key" id="settings-icon">
-                <i class="material-icons md-36 panel-icon"> settings </i>
+            <div class="panel-key">
+                <i class="material-icons md-36 panel-icon" id="settings-icon"> settings </i>
             </div>
-            <div class="panel-key" id="help-icon">
-                <i class="material-icons md-36 panel-icon"> help </i>
+            <div class="panel-key">
+                <i class="material-icons md-36 panel-icon" id="help-icon"> help </i>
             </div>
-            <div class="panel-key" id="exit-icon">
-                <i class="material-icons md-36 panel-icon"> exit_to_app </i>
+            <div class="panel-key">
+                <i class="material-icons md-36 panel-icon" id="exit-icon"> exit_to_app </i>
             </div>
         </div>
         <div class="editor">

@@ -1,0 +1,26 @@
+.editor{
+    position: fixed;
+    top: 3rem;
+    right: 0;
+    //float: left;
+    width: calc(100vw - 4rem);
+    height: calc(100vh - 4rem);
+    overflow: scroll;
+    background-color: #121212;
+}
+
+.editor::-webkit-scrollbar{
+    background: #212121;
+}
+
+.editor::-webkit-scrollbar-corner{
+    background: #212121;
+}
+
+.editor::-webkit-scrollbar-track {
+    background: #212121;
+}
+
+.editor::-webkit-scrollbar-thumb {
+  background: #424242;
+}

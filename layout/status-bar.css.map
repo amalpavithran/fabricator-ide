@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,WAAW,CAAA;EACP,QAAQ,EAAE,KAAK;EACf,MAAM,EAAE,CAAC;EACT,MAAM,EAAE,IAAI;EACZ,KAAK,EAAE,KAAK;EACZ,gBAAgB,EAAE,OAAO;CAC5B",
+    "sources": [
+        "status-bar.scss"
+    ],
+    "names": [],
+    "file": "status-bar.css"
+}
