@@ -101,13 +101,17 @@ body, html {
           box-shadow: 0 0.25rem 0.5rem 0 rgba(0, 0, 0, 0.2), 0 0.375rem 1.25rem 0 rgba(0, 0, 0, 0.19);
 }
 
-.panel-icon {
+.panel-key {
   -webkit-user-select: none;
   color: white;
-  padding-top: 1rem;
   text-align: center;
   width: 4rem;
-  height: calc(100vh / 9 - 4rem / 9);
+  height: calc(100vh / 7 - 4rem / 7);
+}
+
+.panel-icon {
+  padding-top: calc(100vh / 14 - 4rem / 14  - 1rem);
+  vertical-align: middle;
 }
 
 .panel-icon:hover {
