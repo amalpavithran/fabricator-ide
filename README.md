@@ -10,7 +10,12 @@ Setting up the IDE is Simple -
 
 To install the required packages on ubuntu/debian, run -
 ```
-sudo apt install npm nodejs
+sudo apt install nodejs
+```
+
+To install the required packages on older verions of fedora/RHEL/CentOS, run -
+```
+sudo yum install nodejs
 ```
 
 ### 2. Now to install the required NodeJs packages (`electron` that is)
