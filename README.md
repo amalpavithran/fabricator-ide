@@ -8,9 +8,16 @@ Setting up the IDE is Simple -
 
 ### 1. You must have `npm` and `nodejs` installed.
 
+For Windows, install them from the link:
+https://nodejs.org/
+
 To install the required packages on ubuntu/debian, run -
 ```
 sudo apt install nodejs
+```
+To install the required packages on new verions of fedora/RHEL/CentOS, run -
+```
+sudo dnf install nodejs
 ```
 
 To install the required packages on older verions of fedora/RHEL/CentOS, run -
