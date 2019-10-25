@@ -26,7 +26,7 @@ Now npm would automatically install the required packages
 
 Final step -
 ```
-npm start
+npm run start
 ```
 
 The Fabricator IDE should now launch!
