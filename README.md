@@ -1,6 +1,6 @@
 # Fabricator IDE
 
-Fabricator IDE helps you create apps using a new and simple sub-bot (node) based GUI way!
+Fabricator IDE helps you create apps using a new and simple sub-bot (node) based GUI way! C!nnect different types of sub-bots(nodes) and make an application very easily and fastly without worrying about simple errors.
 
 ## Setting Up Fabricator IDE (on Debian/Ubuntu)
 
