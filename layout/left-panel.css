@@ -17,6 +17,18 @@
   height: calc(100vh / 7 - 4rem / 7);
 }
 
+.panel-key:not(.active):active {
+  background-color: #424242;
+}
+
+.panel-key__tool.active {
+  background-color: #616161;
+}
+
+.panel-key__option.active {
+  background-color: #bb86fc;
+}
+
 .panel-icon {
   padding-top: calc(100vh / 14 - 4rem / 14  - 1rem);
   vertical-align: middle;
