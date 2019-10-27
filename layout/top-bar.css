@@ -29,6 +29,7 @@
 .global-search {
   -webkit-app-region: no-drag;
   float: left;
+  display: flex;
   border-radius: 500px;
   border: thin solid #0000;
   height: 1.9rem;
@@ -42,9 +43,8 @@
 #search-input {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
-  margin-left: 2rem;
+  margin-left: 1rem;
   color: white;
-  float: left;
   border: none;
   height: 1.7rem;
   width: calc(100vw - 25rem);
@@ -57,13 +57,23 @@
   border: none;
 }
 
+#clear-search-icon {
+  display: none;
+  text-align: center;
+  color: white;
+  padding-top: 0.4rem;
+  margin-left: auto;
+  margin-right: 1rem;
+}
+
+#search-input:valid + #clear-search-icon {
+  display: block;
+}
+
 #search-icon {
   text-align: center;
   color: white;
-  position: relative;
-  float: left;
-  right: 0;
-  left: 1rem;
   padding-top: 0.4rem;
+  margin-left: 1rem;
 }
 /*# sourceMappingURL=top-bar.css.map */
