@@ -14,3 +14,10 @@ function exitApp() {
         window.close();
     }
 }
+
+function clearSearch() {
+    // select search box by id
+    var searchInput = document.querySelector('#search-input')
+    // clear value
+    searchInput.value = ''
+}
