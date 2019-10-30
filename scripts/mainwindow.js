@@ -1,5 +1,6 @@
 // electron libary to access BrowserWindow object so that you can call methods like minimize, maximize and close methods for your application
 const remote = require('electron').remote;
+const Tooltip = require('tooltip.js');
 // var searchInput = document.querySelector('#search-input');
 const tools = document.querySelectorAll('.panel-key__tool')
 const options = document.querySelectorAll('.panel-key__option')
@@ -22,6 +23,14 @@ optionsArray.map((option) => {
 
 function init() {
     toolsArray[0].classList.add('active')
+	
+	// Add tooltip
+	const reference = document.querySelector('.panel-key');
+	const tool = new Tooltip(reference, {
+				   	placement: 'right', // or bottom, left, right, and variations
+				    title: "Top",
+					template: '<div class="tooltip" role="tooltip"><div class="tooltip-arrow"></div><div class="tooltip-inner"></div></div>'
+	});
 }
 
 function deselectTools() {
