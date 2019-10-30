@@ -40,19 +40,11 @@
   cursor: pointer;
 }
 
-.panel-icon-tooltip{
-	visibility: hidden;
-	position: absolute;
+.tooltip{
 	padding: 5px;
 	width: 120px;
 	background: black;
 	color: white;
-	overflow: visible;
 	font-size: 22px;
-	z-index: 1000;
-}
-
-.panel-key:hover .panel-icon-tooltip{
-	visibility: visible;
 }
 /*# sourceMappingURL=left-panel.css.map */
