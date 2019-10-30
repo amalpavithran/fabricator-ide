@@ -31,6 +31,10 @@
   background-color: #bb86fc;
 }
 
+.tooltip-inner{
+	color: white;
+}
+
 .panel-icon {
   padding-top: calc(100vh / 14 - 4rem / 14  - 1rem);
   vertical-align: middle;
@@ -41,10 +45,18 @@
 }
 
 .tooltip{
+<<<<<<< HEAD
+	z-index: 100;
+=======
+>>>>>>> 4907d75006930910ac099085a7e6b9bd8f93c0a7
 	padding: 5px;
 	width: 120px;
-	background: black;
+	background: blue;
 	color: white;
+<<<<<<< HEAD
+	text-align: center;
+=======
+>>>>>>> 4907d75006930910ac099085a7e6b9bd8f93c0a7
 	font-size: 22px;
 }
 /*# sourceMappingURL=left-panel.css.map */

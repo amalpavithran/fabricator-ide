@@ -22,7 +22,10 @@
             <i class="material-icons md-18" id="clear-search-icon" onclick="clearSearch()"> highlight_off </i>
         </div>
     </div>
-    <div class="workspace">
+    <div style="height: 100px;" class="workspace">
+		<div style="z-index: 1;" class="editor">
+        </div>
+
         <div class="left-panel">
             <div class="panel-key panel-key__tool">
                 <i class="material-icons md-36 panel-icon" id="create-icon"> add_box </i>
@@ -45,8 +48,6 @@
             <div class="panel-key panel-key__option" onclick="exitApp()">
                 <i class="material-icons md-36 panel-icon" id="exit-icon"> exit_to_app </i>
             </div>
-        </div>
-        <div class="editor">
         </div>
     </div>
     <div class="status-bar">
