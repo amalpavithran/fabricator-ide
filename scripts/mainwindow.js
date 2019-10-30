@@ -22,15 +22,34 @@ optionsArray.map((option) => {
 })
 
 function init() {
-    toolsArray[0].classList.add('active')
+    toolsArray[0].classList.add('active');
 	
 	// Add tooltip
 	const reference = document.querySelector('.panel-key');
-	const tool = new Tooltip(reference, {
-				   	placement: 'right', // or bottom, left, right, and variations
-				    title: "Top",
-					template: '<div class="tooltip" role="tooltip"><div class="tooltip-arrow"></div><div class="tooltip-inner"></div></div>'
-	});
+	var options =  { placement: 'top', // or bottom, left, right, and variations
+				 title: "Top",
+				 template: '<div class="tooltip" role="tooltip"><div class="tooltip-arrow"></div><div class="tooltip-inner"></div></div>'
+	};
+	options.title = "Add";
+	const tool1 = new Tooltip(document.getElementById("#add-btn"), options);
+
+	options.title = "Move";
+	const tool2 = new Tooltip(document.getElementById("#move-btn"), options);
+	
+	options.title = "Open";
+	const tool3 = new Tooltip(document.getElementById("#open-btn"), options);
+	
+	options.title = "Save";
+	const tool4 = new Tooltip(document.getElementById("#save-btn"), options);
+
+	options.title = "Settings";
+	const tool5 = new Tooltip(document.getElementById("#settings-btn"), options);
+
+	options.title = "Help";
+	const tool6 = new Tooltip(document.getElementById("#help-btn"), options);
+
+	options.title = "Exit";
+	const tool7 = new Tooltip(document.getElementById("#exit-btn"), options);
 }
 
 function deselectTools() {

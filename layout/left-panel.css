@@ -45,10 +45,11 @@
 }
 
 .tooltip{
+	font-family: "Segoe UI";
+	position: relative;
 	z-index: 100;
-	padding: 5px;
-	width: 120px;
-	background: blue;
+	padding: 7px 10px;
+	background: #111;
 	color: white;
 	text-align: center;
 	font-size: 22px;
