@@ -1,6 +1,7 @@
 .editor {
   position: fixed;
   top: 3rem;
+  z-index: 1;
   right: 0;
   width: calc(100vw - 4rem);
   height: calc(100vh - 4rem);

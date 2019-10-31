@@ -1,5 +1,6 @@
 // electron libary to access BrowserWindow object so that you can call methods like minimize, maximize and close methods for your application
 const remote = require('electron').remote;
+const Tooltip = require('tooltip.js');
 // var searchInput = document.querySelector('#search-input');
 const tools = document.querySelectorAll('.panel-key__tool')
 const options = document.querySelectorAll('.panel-key__option')
@@ -21,7 +22,34 @@ optionsArray.map((option) => {
 })
 
 function init() {
-    toolsArray[0].classList.add('active')
+    toolsArray[0].classList.add('active');
+	
+	// Add tooltip
+	const reference = document.querySelector('.panel-key');
+	var options =  { placement: 'top', // or bottom, left, right, and variations
+				 title: "Top",
+				 template: '<div class="tooltip" role="tooltip"><div class="tooltip-arrow"></div><div class="tooltip-inner"></div></div>'
+	};
+	options.title = "Add";
+	const tool1 = new Tooltip(document.getElementById("#add-btn"), options);
+
+	options.title = "Move";
+	const tool2 = new Tooltip(document.getElementById("#move-btn"), options);
+	
+	options.title = "Open";
+	const tool3 = new Tooltip(document.getElementById("#open-btn"), options);
+	
+	options.title = "Save";
+	const tool4 = new Tooltip(document.getElementById("#save-btn"), options);
+
+	options.title = "Settings";
+	const tool5 = new Tooltip(document.getElementById("#settings-btn"), options);
+
+	options.title = "Help";
+	const tool6 = new Tooltip(document.getElementById("#help-btn"), options);
+
+	options.title = "Exit";
+	const tool7 = new Tooltip(document.getElementById("#exit-btn"), options);
 }
 
 function deselectTools() {
