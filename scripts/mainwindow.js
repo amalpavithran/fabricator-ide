@@ -26,7 +26,7 @@ function init() {
 	
 	// Add tooltip
 	const reference = document.querySelector('.panel-key');
-	var options =  { placement: 'top', // or bottom, left, right, and variations
+	var options =  { placement: 'right', // or bottom, left, right, and variations
 				 title: "Top",
 				 template: '<div class="tooltip" role="tooltip"><div class="tooltip-arrow"></div><div class="tooltip-inner"></div></div>'
 	};

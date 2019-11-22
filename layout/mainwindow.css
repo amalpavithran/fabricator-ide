@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
 body, html {
   background-color: black;
-  overflow: hidden;
   margin: 0;
 }
 
@@ -20,4 +19,3 @@ body, html {
 .material-icons.md-48 {
   font-size: 48px;
 }
-/*# sourceMappingURL=mainwindow.css.map */
